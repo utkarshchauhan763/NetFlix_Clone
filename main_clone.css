@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-color: black;
+}
+
+.main {
+    background-image: url("Netflix_main.jpg");
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100vh;
+    /* min-width: 160px; */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* filter: brightness(0.4); */
+    background-color: black;
+    
+
+    /* min-height: 130vh; */
+    /* margin-top: 20px; */
+
+}
+
+.all{
+    /* border: 2px solid red; */
+    overflow: auto;
+    height: 100vh;
+    overflow-x: hidden;
+    /* opacity: 0.69; */
+    /* background-color: black; */
+    
+}
+
+.main .box{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.29;
+}
+
+.main .shadow{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.59;
+}
+
+.main .sh1{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    position:absolute;
+    z-index: 1;
+    opacity: 0.29;
+}
+
+
+
+nav{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin-left: 10vw;
+    margin-top: 1vh;
+    height: 62px;
+    /* overflow: hidden; */
+    z-index: 1;
+}
+
+nav>span{
+    color: red;
+    fill: red;
+    /* font-family: 'system-ui'; */
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 999;
+    position: relative;
+    z-index: 20;
+    
+}
+
+nav>.buttons{
+    /* border: 2px solid red; */
+    
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 20;
+    /* width: 166px; */
+    /* border: 2px solid white; */
+    gap: 12px;
+
+}
+
+nav .btn1{
+    width: 100px;
+    height: 39px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    opacity: 0.8;
+    border-radius: 4px;
+
+}
+
+nav .btn2{
+    width: 80px;
+    height: 39px;
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+    opacity: 0.8;
+    border-radius: 4px;
+
+}
+
+
+.container{
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    /* border: 2px solid white; */
+    width: 40vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    z-index: 4;
+    filter: brightness(1);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 19vh;
+}
+
+.container>span{
+    font-size: 63px;
+    font-weight: 700;
+    font-family: sans-serif;
+    line-height: 100%;    
+    
+}
+
+span>p{
+    font-size: 18px;
+    font-weight: 400;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>p{
+    font-size: 18px;
+    font-weight: 400;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    
+}
+
+.search{
+    margin-top: 18px;
+    /* margin-bottom: 19px; */
+    /* margin-left:26px; */
+    /* border: 2px solid rgb(128, 25, 218); */
+    /* width: fit-content; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 53px;
+    opacity: 0.9;
+}
+
+.search>input{
+    width: 340px;
+    height: 55px;
+    border-radius: 8px;
+    /* padding-left: 3px; */
+    opacity: 0.7;
+    background-color: black;
+    border: 2px solid white;
+}
+input::placeholder{
+    color: white;
+    font-size: 20px;
+}
+
+
+.search>.GetStarted{
+    width: 160px;
+    height: 55px;
+    border-radius: 8px;
+    border: 2px solid red;
+    padding-left: 3px;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.all>.sh2{
+    height: 170px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+    opacity: 0.21;
+    margin-top: 68px;
+}
+
+.color_rainbow{
+    /* margin-top: 74px; */
+    z-index: 10px;
+    opacity: 0.9;
+    position: relative;
+    /* background-color: black; */
+    margin-left: 10px;
+
+}
+
+
+
+.second_part{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(5, 8, 20); */
+    background-color: rgb(0 0 0);
+    /* margin-bottom: 15vh; */
+}
+.second_part .head{
+    margin-top: 57px;
+
+}
+
+.head .text{
+    /* border: 2px solid rgb(180, 165, 165); */
+    /* margin: 200px; */
+    margin-top: 10vh;
+    margin-left: 180px;
+    font-size: 25px;
+    width: fit-content;
+    /* padding: 20px; */
+    color: white;
+    background: black;
+    font-family: sans-serif;
+
+}
+
+.head .button{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 20;
+    gap: 12px;
+    margin-top: 20px;
+    margin-left:178px;
+}
+
+.button>.btn{
+    width: 100px;
+    height: 39px;
+    color: white;
+    background-color: black;
+    border: 0.5px solid white;
+    opacity: 0.8;
+    border-radius: 4px;
+    
+
+}
+
+/* Carousel Container */
+.carousel-container {
+    margin-top: 20px;
+    width: 1104px;
+    height: 287px;
+    margin: auto;
+    padding-top: 20px;
+    overflow: hidden;
+    /* gap: 12px; */
+    position: relative;
+    /* border: 2px solid red; */
+
+  }
+  
+  /* Carousel Wrapper */
+  .carousel-wrapper {
+    gap: 30px;
+    display: flex; /* Align items horizontally */
+    transition: transform 0.5s ease; /* Smooth sliding effect */
+  }
+  
+  /* Carousel Item */
+  .carousel-item {
+    min-width: 200px; /* Each item takes full width */
+    /* border-radius: 20px; */
+    flex: 0 0 auto; /* Prevent items from shrinking or growing */
+  }
+  
+  /* Image Styling */
+  .carousel-item img {
+    border-radius: 15px;
+    width: 100%; /* Full width of the item */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Navigation Buttons */
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 10;
+  }
+  
+  .carousel-btn.prev {
+    left: 10px;
+  }
+  
+  .carousel-btn.next {
+    right: 10px;
+  }
+
+  .card_reason{
+    /* margin-right: 45px;*/
+    /* margin-left: 145px; */
+    /* border: 2px solid white; */
+    margin-top: 30px;
+    /* padding-left: 3vw; */
+    /* margin: auto; */
+    /* height: 350px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    /* width: 250px; */
+
+    /* flex-flow: column; */
+    /* flex-direction: column; */
+    gap: 42px;
+
+  }
+
+  .third{
+    background-color: black;
+  }
+
+  .third > .text{
+    /* border: 2px solid white; */
+    color: white;
+    font-size: 29px;
+    margin-left: 277px;
+    margin-top: 59px;
+
+  }
+
+  .card1{
+    border: 1px solid white;
+    background: linear-gradient(to right, #c95fff2b, #987bfe42, #0f0f10);
+    border-radius: 14px;
+    line-height: 34px;
+    width: 305px;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card1 span{
+    font-size: 35px;
+    margin: auto;
+    /* margin-top: 12px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .card1 p{
+    font-size: 1.3rem;
+    margin: auto;
+  }
+
+  .card1 img{
+    margin-top: 20px;
+    margin-left: 190px;
+    opacity: 0.8;
+    /* border: 2px solid ; */
+    width: 60px;
+  }
+
+  .fourth{
+    /* border: 2px solid white; */
+    color: white;
+    background-color: black;
+    width: 81vw;
+    margin: auto;
+    gap: 15px;
+    /* padding-bottom: ; */
+  }
+
+  .fourth .heading{
+    /* border: 2px solid white; */
+    margin-top: 40px;
+    font-size: 25px;
+    margin: left 59px;
+    line-height: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .fourth .q1{
+    /* border: 2px solid white; */
+    line-height: 74px;
+    background-color:rgb(60, 60, 60);
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 12px;
+    font-size: 27px;
+    padding-left: 30px;
+  }
